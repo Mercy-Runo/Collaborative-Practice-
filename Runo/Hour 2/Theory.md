@@ -1,4 +1,4 @@
-#Q&A 
+# Q&A 
 <br />
 Q Why do you need to put comments into your programs?<br />
 A Comments help you document what a program does. Especially when a program
@@ -20,7 +20,7 @@ executable file can be created<br /><br />
 
 
 
-#QUIZ<br />
+# QUIZ<br />
 1. Can a C compiler see the comments within your C program?<br />
   No<br />
 2. What kind of files does a C compiler actually produce?<br />
@@ -29,4 +29,23 @@ executable file can be created<br /><br />
   Exit doesn't return a value,
   return statements do.<br />
 4. What is a header file?<br />
-  The files that are included by the #include directive, usually placed at the start of c programs.<br />
+  The files that are included by the #include directive, usually placed at the start of c programs.<br /><br />
+
+  # Other<br />
+  4. What warning or error messages, if any, will you get when you’re compiling the
+following program?<br />
+#include <stdlib.h><br />
+#include <stdio.h><br />
+main()<br />
+{<br />
+printf (“Howdy, neighbor! This is my first C program.\n”);<br />
+exit(0);<br />
+}<br />
+no error message<br />
+5. What error messages will you get for the following program when you’re trying to
+compile it?<br />
+void main()<br />
+{<br />
+printf (“Howdy, neighbor! This is my first C program.\n”);<br />
+return 0;<br />
+}<br />
